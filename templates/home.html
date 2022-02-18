@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+    
+  <title>Review Raja</title>
+  <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+      <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+
+        <style>
+            .links {
+                margin: 12.5%;
+                font-size: large;
+                font-weight: bold;
+            }
+        </style>
+
+
+  </head>
+  <body>
+    <div class='container'>
+        <div class="row ml-1" style="padding-top: 2%;">
+            <div class="col-md-1">
+                <img height=70px src="https://bl.thgim.com/specials/flight-plan/7ipbuc/article32950475.ece/alternates/PORTRAIT_300/BL28LOGO" alt="">
+            </div>
+            <div class="col-md-1 logo_text "> <h3>Review Raja</h3></div>
+
+            <div class="col-md-5" style="margin: 2.5% 20%">
+                    <a href="/index.html" class="links">Home</a>
+                    <a href="data.html" class="links">Data</a>
+            </div>
+        </div>
+    </div>
+    <br><br><br>
+    <div class="container">
+    <div class="row">
+        <div class="col-md-3">
+            <!-- <img src="http://www.impawards.com/2020/posters/tenet_ver3.jpg" alt="" height="300px"> -->
+            <img height="300px" src="https://upload.wikimedia.org/wikipedia/en/1/15/Yeh_jawani_hai_deewani.jpg" alt="">
+        </div>
+        <div class="col-md-8">
+            <h4><b>Yeh Jawaani Hai Deewani</b></h4>
+            <p>Yeh Jawaani Hai Deewani is an upcoming 2013 Bollywood romance film directed by Ayan Mukerji. The film stars Ranbir Kapoor and Deepika Padukone in lead roles. 
+Yeh Jawaani Hai Deewani features two polar opposite characters, who at one point were classmates at Modern School. The first is Naina Talwar (Deepika Padukone), a studious bespectacled young girl. 
+The second is Bunny (Ranbir Kapoor), a carefree young travel show host intent on breaking out of the pattern of getting an education, a career, a wife, children, retirement, and eventually death. 
+With a desire to be free and live a life of wildness, Bunny embarks on a journey with his two best friends, Aditi (Kalki Koechlin), a tomboyish girl, and Avi (Aditya Roy Kapur), a comedic boy with a penchant for satire. 
+Bunny meets Naina and persuades her to spend time with him and his friends in Kashmir. Eventually their journey will lead them to the ultimate destination, "Love". 
+As the two mature from the age of 21 to their 30's, they recognize their priorities, realize their true desires and celebrate madness, warmth, marriage, wildness, freedom, togetherness, reunions, friendship, breakups, family, and love.
+            </p>
+        </div>
+        
+    </div>
+    </div>
+    <br><br>
+    <div class="container">
+        {% block content %} {% endblock %}
+    </div>
+
+  </body>
+</html>
